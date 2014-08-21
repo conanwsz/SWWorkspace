@@ -19,58 +19,6 @@
 		74474A0E19A5C9F50040961A /* NSString+SWHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474A0A19A5C9F50040961A /* NSString+SWHex.m */; };
 		74474A1419A5CA440040961A /* UIImage+SWImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474A1219A5CA440040961A /* UIImage+SWImage.m */; };
 		74474A1719A5CAB70040961A /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474A1619A5CAB70040961A /* NSDate+Helper.m */; };
-		74474B2B19A5ED760040961A /* wax_CGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474AC019A5ED760040961A /* wax_CGTransform.m */; };
-		74474B2C19A5ED760040961A /* wax_CGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474AC319A5ED760040961A /* wax_CGContext.m */; };
-		74474B2D19A5ED760040961A /* wax_filesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474AC619A5ED760040961A /* wax_filesystem.m */; };
-		74474B2E19A5ED760040961A /* wax_http.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474AC919A5ED760040961A /* wax_http.m */; };
-		74474B2F19A5ED760040961A /* wax_http_connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474ACB19A5ED760040961A /* wax_http_connection.m */; };
-		74474B3019A5ED760040961A /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = 74474ACD19A5ED760040961A /* Rakefile */; };
-		74474B3119A5ED760040961A /* wax_json.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474ACE19A5ED760040961A /* wax_json.c */; };
-		74474B3219A5ED760040961A /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AD519A5ED760040961A /* yajl.c */; };
-		74474B3319A5ED760040961A /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AD619A5ED760040961A /* yajl_alloc.c */; };
-		74474B3419A5ED760040961A /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AD819A5ED760040961A /* yajl_buf.c */; };
-		74474B3519A5ED760040961A /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474ADC19A5ED760040961A /* yajl_encode.c */; };
-		74474B3619A5ED760040961A /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474ADE19A5ED760040961A /* yajl_gen.c */; };
-		74474B3719A5ED760040961A /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AE019A5ED760040961A /* yajl_lex.c */; };
-		74474B3819A5ED760040961A /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AE319A5ED760040961A /* yajl_parser.c */; };
-		74474B3919A5ED760040961A /* yajl-1.0.9.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 74474AE519A5ED760040961A /* yajl-1.0.9.tar.gz */; };
-		74474B3A19A5ED760040961A /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AE719A5ED760040961A /* lapi.c */; };
-		74474B3B19A5ED760040961A /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AE919A5ED760040961A /* lauxlib.c */; };
-		74474B3C19A5ED760040961A /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AEB19A5ED760040961A /* lbaselib.c */; };
-		74474B3D19A5ED760040961A /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AEC19A5ED760040961A /* lcode.c */; };
-		74474B3E19A5ED760040961A /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AEE19A5ED760040961A /* ldblib.c */; };
-		74474B3F19A5ED760040961A /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AEF19A5ED760040961A /* ldebug.c */; };
-		74474B4019A5ED760040961A /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AF119A5ED760040961A /* ldo.c */; };
-		74474B4119A5ED760040961A /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AF319A5ED760040961A /* ldump.c */; };
-		74474B4219A5ED760040961A /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AF419A5ED760040961A /* lfunc.c */; };
-		74474B4319A5ED760040961A /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AF619A5ED760040961A /* lgc.c */; };
-		74474B4419A5ED760040961A /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AF819A5ED760040961A /* linit.c */; };
-		74474B4519A5ED760040961A /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AF919A5ED760040961A /* liolib.c */; };
-		74474B4619A5ED760040961A /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AFA19A5ED760040961A /* llex.c */; };
-		74474B4719A5ED760040961A /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AFD19A5ED760040961A /* lmathlib.c */; };
-		74474B4819A5ED760040961A /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474AFE19A5ED760040961A /* lmem.c */; };
-		74474B4919A5ED760040961A /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B0019A5ED760040961A /* loadlib.c */; };
-		74474B4A19A5ED760040961A /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B0119A5ED760040961A /* lobject.c */; };
-		74474B4B19A5ED760040961A /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B0319A5ED760040961A /* lopcodes.c */; };
-		74474B4C19A5ED760040961A /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B0519A5ED760040961A /* loslib.c */; };
-		74474B4D19A5ED760040961A /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B0619A5ED760040961A /* lparser.c */; };
-		74474B4E19A5ED760040961A /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B0819A5ED760040961A /* lstate.c */; };
-		74474B4F19A5ED760040961A /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B0A19A5ED760040961A /* lstring.c */; };
-		74474B5019A5ED760040961A /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B0C19A5ED760040961A /* lstrlib.c */; };
-		74474B5119A5ED760040961A /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B0D19A5ED760040961A /* ltable.c */; };
-		74474B5219A5ED760040961A /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B0F19A5ED760040961A /* ltablib.c */; };
-		74474B5319A5ED760040961A /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B1019A5ED760040961A /* ltm.c */; };
-		74474B5419A5ED760040961A /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B1519A5ED760040961A /* lundump.c */; };
-		74474B5519A5ED760040961A /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B1719A5ED760040961A /* lvm.c */; };
-		74474B5619A5ED760040961A /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B1919A5ED760040961A /* lzio.c */; };
-		74474B5719A5ED760040961A /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 74474B1B19A5ED760040961A /* print.c */; };
-		74474B5819A5ED760040961A /* wax.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474B1D19A5ED760040961A /* wax.m */; };
-		74474B5919A5ED760040961A /* wax_class.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474B1F19A5ED760040961A /* wax_class.m */; };
-		74474B5A19A5ED760040961A /* wax_gc.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474B2119A5ED760040961A /* wax_gc.m */; };
-		74474B5B19A5ED760040961A /* wax_helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474B2319A5ED760040961A /* wax_helpers.m */; };
-		74474B5C19A5ED760040961A /* wax_instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474B2519A5ED760040961A /* wax_instance.m */; };
-		74474B5D19A5ED760040961A /* wax_server.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474B2719A5ED760040961A /* wax_server.m */; };
-		74474B5E19A5ED760040961A /* wax_struct.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474B2A19A5ED760040961A /* wax_struct.m */; };
 		74A8F3CD199DA23200315362 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74A8F3CC199DA23200315362 /* Default-568h@2x.png */; };
 		74BDBC82199DAB5A00529846 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 74BDBC81199DAB5A00529846 /* Podfile */; };
 		FDEA8A5615CD1EBD0030B539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEA8A5515CD1EBD0030B539 /* UIKit.framework */; };
@@ -107,107 +55,6 @@
 		74474A1219A5CA440040961A /* UIImage+SWImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SWImage.m"; sourceTree = "<group>"; };
 		74474A1519A5CAB70040961A /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
 		74474A1619A5CAB70040961A /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
-		74474ABF19A5ED760040961A /* wax_CGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_CGTransform.h; sourceTree = "<group>"; };
-		74474AC019A5ED760040961A /* wax_CGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_CGTransform.m; sourceTree = "<group>"; };
-		74474AC219A5ED760040961A /* wax_CGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_CGContext.h; sourceTree = "<group>"; };
-		74474AC319A5ED760040961A /* wax_CGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_CGContext.m; sourceTree = "<group>"; };
-		74474AC519A5ED760040961A /* wax_filesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_filesystem.h; sourceTree = "<group>"; };
-		74474AC619A5ED760040961A /* wax_filesystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_filesystem.m; sourceTree = "<group>"; };
-		74474AC819A5ED760040961A /* wax_http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_http.h; sourceTree = "<group>"; };
-		74474AC919A5ED760040961A /* wax_http.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_http.m; sourceTree = "<group>"; };
-		74474ACA19A5ED760040961A /* wax_http_connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_http_connection.h; sourceTree = "<group>"; };
-		74474ACB19A5ED760040961A /* wax_http_connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_http_connection.m; sourceTree = "<group>"; };
-		74474ACD19A5ED760040961A /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
-		74474ACE19A5ED760040961A /* wax_json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wax_json.c; sourceTree = "<group>"; };
-		74474ACF19A5ED760040961A /* wax_json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_json.h; sourceTree = "<group>"; };
-		74474AD219A5ED760040961A /* yajl_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_common.h; sourceTree = "<group>"; };
-		74474AD319A5ED760040961A /* yajl_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_gen.h; sourceTree = "<group>"; };
-		74474AD419A5ED760040961A /* yajl_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parse.h; sourceTree = "<group>"; };
-		74474AD519A5ED760040961A /* yajl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl.c; sourceTree = "<group>"; };
-		74474AD619A5ED760040961A /* yajl_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_alloc.c; sourceTree = "<group>"; };
-		74474AD719A5ED760040961A /* yajl_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_alloc.h; sourceTree = "<group>"; };
-		74474AD819A5ED760040961A /* yajl_buf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_buf.c; sourceTree = "<group>"; };
-		74474AD919A5ED760040961A /* yajl_buf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_buf.h; sourceTree = "<group>"; };
-		74474ADA19A5ED760040961A /* yajl_bytestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_bytestack.h; sourceTree = "<group>"; };
-		74474ADB19A5ED760040961A /* yajl_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_common.h; sourceTree = "<group>"; };
-		74474ADC19A5ED760040961A /* yajl_encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_encode.c; sourceTree = "<group>"; };
-		74474ADD19A5ED760040961A /* yajl_encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_encode.h; sourceTree = "<group>"; };
-		74474ADE19A5ED760040961A /* yajl_gen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_gen.c; sourceTree = "<group>"; };
-		74474ADF19A5ED760040961A /* yajl_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_gen.h; sourceTree = "<group>"; };
-		74474AE019A5ED760040961A /* yajl_lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_lex.c; sourceTree = "<group>"; };
-		74474AE119A5ED760040961A /* yajl_lex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_lex.h; sourceTree = "<group>"; };
-		74474AE219A5ED760040961A /* yajl_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parse.h; sourceTree = "<group>"; };
-		74474AE319A5ED760040961A /* yajl_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_parser.c; sourceTree = "<group>"; };
-		74474AE419A5ED760040961A /* yajl_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parser.h; sourceTree = "<group>"; };
-		74474AE519A5ED760040961A /* yajl-1.0.9.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = "yajl-1.0.9.tar.gz"; sourceTree = "<group>"; };
-		74474AE719A5ED760040961A /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
-		74474AE819A5ED760040961A /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
-		74474AE919A5ED760040961A /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
-		74474AEA19A5ED760040961A /* lauxlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
-		74474AEB19A5ED760040961A /* lbaselib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbaselib.c; sourceTree = "<group>"; };
-		74474AEC19A5ED760040961A /* lcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcode.c; sourceTree = "<group>"; };
-		74474AED19A5ED760040961A /* lcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcode.h; sourceTree = "<group>"; };
-		74474AEE19A5ED760040961A /* ldblib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldblib.c; sourceTree = "<group>"; };
-		74474AEF19A5ED760040961A /* ldebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldebug.c; sourceTree = "<group>"; };
-		74474AF019A5ED760040961A /* ldebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldebug.h; sourceTree = "<group>"; };
-		74474AF119A5ED760040961A /* ldo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldo.c; sourceTree = "<group>"; };
-		74474AF219A5ED760040961A /* ldo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldo.h; sourceTree = "<group>"; };
-		74474AF319A5ED760040961A /* ldump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldump.c; sourceTree = "<group>"; };
-		74474AF419A5ED760040961A /* lfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfunc.c; sourceTree = "<group>"; };
-		74474AF519A5ED760040961A /* lfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfunc.h; sourceTree = "<group>"; };
-		74474AF619A5ED760040961A /* lgc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lgc.c; sourceTree = "<group>"; };
-		74474AF719A5ED760040961A /* lgc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lgc.h; sourceTree = "<group>"; };
-		74474AF819A5ED760040961A /* linit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linit.c; sourceTree = "<group>"; };
-		74474AF919A5ED760040961A /* liolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = liolib.c; sourceTree = "<group>"; };
-		74474AFA19A5ED760040961A /* llex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = llex.c; sourceTree = "<group>"; };
-		74474AFB19A5ED760040961A /* llex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llex.h; sourceTree = "<group>"; };
-		74474AFC19A5ED760040961A /* llimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llimits.h; sourceTree = "<group>"; };
-		74474AFD19A5ED760040961A /* lmathlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmathlib.c; sourceTree = "<group>"; };
-		74474AFE19A5ED760040961A /* lmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmem.c; sourceTree = "<group>"; };
-		74474AFF19A5ED760040961A /* lmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmem.h; sourceTree = "<group>"; };
-		74474B0019A5ED760040961A /* loadlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadlib.c; sourceTree = "<group>"; };
-		74474B0119A5ED760040961A /* lobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lobject.c; sourceTree = "<group>"; };
-		74474B0219A5ED760040961A /* lobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lobject.h; sourceTree = "<group>"; };
-		74474B0319A5ED760040961A /* lopcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lopcodes.c; sourceTree = "<group>"; };
-		74474B0419A5ED760040961A /* lopcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lopcodes.h; sourceTree = "<group>"; };
-		74474B0519A5ED760040961A /* loslib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loslib.c; sourceTree = "<group>"; };
-		74474B0619A5ED760040961A /* lparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lparser.c; sourceTree = "<group>"; };
-		74474B0719A5ED760040961A /* lparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lparser.h; sourceTree = "<group>"; };
-		74474B0819A5ED760040961A /* lstate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstate.c; sourceTree = "<group>"; };
-		74474B0919A5ED760040961A /* lstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstate.h; sourceTree = "<group>"; };
-		74474B0A19A5ED760040961A /* lstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstring.c; sourceTree = "<group>"; };
-		74474B0B19A5ED760040961A /* lstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstring.h; sourceTree = "<group>"; };
-		74474B0C19A5ED760040961A /* lstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstrlib.c; sourceTree = "<group>"; };
-		74474B0D19A5ED760040961A /* ltable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltable.c; sourceTree = "<group>"; };
-		74474B0E19A5ED760040961A /* ltable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltable.h; sourceTree = "<group>"; };
-		74474B0F19A5ED760040961A /* ltablib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltablib.c; sourceTree = "<group>"; };
-		74474B1019A5ED760040961A /* ltm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltm.c; sourceTree = "<group>"; };
-		74474B1119A5ED760040961A /* ltm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltm.h; sourceTree = "<group>"; };
-		74474B1219A5ED760040961A /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
-		74474B1319A5ED760040961A /* luaconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luaconf.h; sourceTree = "<group>"; };
-		74474B1419A5ED760040961A /* lualib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
-		74474B1519A5ED760040961A /* lundump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lundump.c; sourceTree = "<group>"; };
-		74474B1619A5ED760040961A /* lundump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lundump.h; sourceTree = "<group>"; };
-		74474B1719A5ED760040961A /* lvm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvm.c; sourceTree = "<group>"; };
-		74474B1819A5ED760040961A /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
-		74474B1919A5ED760040961A /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
-		74474B1A19A5ED760040961A /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
-		74474B1B19A5ED760040961A /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
-		74474B1C19A5ED760040961A /* wax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax.h; sourceTree = "<group>"; };
-		74474B1D19A5ED760040961A /* wax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax.m; sourceTree = "<group>"; };
-		74474B1E19A5ED760040961A /* wax_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_class.h; sourceTree = "<group>"; };
-		74474B1F19A5ED760040961A /* wax_class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_class.m; sourceTree = "<group>"; };
-		74474B2019A5ED760040961A /* wax_gc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_gc.h; sourceTree = "<group>"; };
-		74474B2119A5ED760040961A /* wax_gc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_gc.m; sourceTree = "<group>"; };
-		74474B2219A5ED760040961A /* wax_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_helpers.h; sourceTree = "<group>"; };
-		74474B2319A5ED760040961A /* wax_helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_helpers.m; sourceTree = "<group>"; };
-		74474B2419A5ED760040961A /* wax_instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_instance.h; sourceTree = "<group>"; };
-		74474B2519A5ED760040961A /* wax_instance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_instance.m; sourceTree = "<group>"; };
-		74474B2619A5ED760040961A /* wax_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_server.h; sourceTree = "<group>"; };
-		74474B2719A5ED760040961A /* wax_server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_server.m; sourceTree = "<group>"; };
-		74474B2819A5ED760040961A /* wax_stdlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_stdlib.h; sourceTree = "<group>"; };
-		74474B2919A5ED760040961A /* wax_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_struct.h; sourceTree = "<group>"; };
-		74474B2A19A5ED760040961A /* wax_struct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_struct.m; sourceTree = "<group>"; };
 		74A8F3CC199DA23200315362 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
 		74BDBC81199DAB5A00529846 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FDEA8A5115CD1EBD0030B539 /* SWWorkspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWWorkspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -279,7 +126,6 @@
 				7445F3FF19A1D9CE0022808A /* Category */,
 				7445F40019A1D9CE0022808A /* Model */,
 				7445F40119A1D9CE0022808A /* Service */,
-				74474ABB19A5ED760040961A /* Vendor */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -354,195 +200,6 @@
 				74474A0B19A5C9F50040961A /* SWHex.h */,
 			);
 			path = SWHex;
-			sourceTree = "<group>";
-		};
-		74474ABB19A5ED760040961A /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				74474ABC19A5ED760040961A /* wax */,
-			);
-			name = Vendor;
-			path = vendor;
-			sourceTree = "<group>";
-		};
-		74474ABC19A5ED760040961A /* wax */ = {
-			isa = PBXGroup;
-			children = (
-				74474ABD19A5ED760040961A /* extensions */,
-				74474AE619A5ED760040961A /* lua */,
-				74474B1C19A5ED760040961A /* wax.h */,
-				74474B1D19A5ED760040961A /* wax.m */,
-				74474B1E19A5ED760040961A /* wax_class.h */,
-				74474B1F19A5ED760040961A /* wax_class.m */,
-				74474B2019A5ED760040961A /* wax_gc.h */,
-				74474B2119A5ED760040961A /* wax_gc.m */,
-				74474B2219A5ED760040961A /* wax_helpers.h */,
-				74474B2319A5ED760040961A /* wax_helpers.m */,
-				74474B2419A5ED760040961A /* wax_instance.h */,
-				74474B2519A5ED760040961A /* wax_instance.m */,
-				74474B2619A5ED760040961A /* wax_server.h */,
-				74474B2719A5ED760040961A /* wax_server.m */,
-				74474B2819A5ED760040961A /* wax_stdlib.h */,
-				74474B2919A5ED760040961A /* wax_struct.h */,
-				74474B2A19A5ED760040961A /* wax_struct.m */,
-			);
-			path = wax;
-			sourceTree = "<group>";
-		};
-		74474ABD19A5ED760040961A /* extensions */ = {
-			isa = PBXGroup;
-			children = (
-				74474ABE19A5ED760040961A /* CGAffine */,
-				74474AC119A5ED760040961A /* CGContext */,
-				74474AC419A5ED760040961A /* filesystem */,
-				74474AC719A5ED760040961A /* HTTP */,
-				74474ACC19A5ED760040961A /* json */,
-			);
-			path = extensions;
-			sourceTree = "<group>";
-		};
-		74474ABE19A5ED760040961A /* CGAffine */ = {
-			isa = PBXGroup;
-			children = (
-				74474ABF19A5ED760040961A /* wax_CGTransform.h */,
-				74474AC019A5ED760040961A /* wax_CGTransform.m */,
-			);
-			path = CGAffine;
-			sourceTree = "<group>";
-		};
-		74474AC119A5ED760040961A /* CGContext */ = {
-			isa = PBXGroup;
-			children = (
-				74474AC219A5ED760040961A /* wax_CGContext.h */,
-				74474AC319A5ED760040961A /* wax_CGContext.m */,
-			);
-			path = CGContext;
-			sourceTree = "<group>";
-		};
-		74474AC419A5ED760040961A /* filesystem */ = {
-			isa = PBXGroup;
-			children = (
-				74474AC519A5ED760040961A /* wax_filesystem.h */,
-				74474AC619A5ED760040961A /* wax_filesystem.m */,
-			);
-			path = filesystem;
-			sourceTree = "<group>";
-		};
-		74474AC719A5ED760040961A /* HTTP */ = {
-			isa = PBXGroup;
-			children = (
-				74474AC819A5ED760040961A /* wax_http.h */,
-				74474AC919A5ED760040961A /* wax_http.m */,
-				74474ACA19A5ED760040961A /* wax_http_connection.h */,
-				74474ACB19A5ED760040961A /* wax_http_connection.m */,
-			);
-			path = HTTP;
-			sourceTree = "<group>";
-		};
-		74474ACC19A5ED760040961A /* json */ = {
-			isa = PBXGroup;
-			children = (
-				74474ACD19A5ED760040961A /* Rakefile */,
-				74474ACE19A5ED760040961A /* wax_json.c */,
-				74474ACF19A5ED760040961A /* wax_json.h */,
-				74474AD019A5ED760040961A /* yajl */,
-				74474AE519A5ED760040961A /* yajl-1.0.9.tar.gz */,
-			);
-			path = json;
-			sourceTree = "<group>";
-		};
-		74474AD019A5ED760040961A /* yajl */ = {
-			isa = PBXGroup;
-			children = (
-				74474AD119A5ED760040961A /* api */,
-				74474AD519A5ED760040961A /* yajl.c */,
-				74474AD619A5ED760040961A /* yajl_alloc.c */,
-				74474AD719A5ED760040961A /* yajl_alloc.h */,
-				74474AD819A5ED760040961A /* yajl_buf.c */,
-				74474AD919A5ED760040961A /* yajl_buf.h */,
-				74474ADA19A5ED760040961A /* yajl_bytestack.h */,
-				74474ADB19A5ED760040961A /* yajl_common.h */,
-				74474ADC19A5ED760040961A /* yajl_encode.c */,
-				74474ADD19A5ED760040961A /* yajl_encode.h */,
-				74474ADE19A5ED760040961A /* yajl_gen.c */,
-				74474ADF19A5ED760040961A /* yajl_gen.h */,
-				74474AE019A5ED760040961A /* yajl_lex.c */,
-				74474AE119A5ED760040961A /* yajl_lex.h */,
-				74474AE219A5ED760040961A /* yajl_parse.h */,
-				74474AE319A5ED760040961A /* yajl_parser.c */,
-				74474AE419A5ED760040961A /* yajl_parser.h */,
-			);
-			path = yajl;
-			sourceTree = "<group>";
-		};
-		74474AD119A5ED760040961A /* api */ = {
-			isa = PBXGroup;
-			children = (
-				74474AD219A5ED760040961A /* yajl_common.h */,
-				74474AD319A5ED760040961A /* yajl_gen.h */,
-				74474AD419A5ED760040961A /* yajl_parse.h */,
-			);
-			path = api;
-			sourceTree = "<group>";
-		};
-		74474AE619A5ED760040961A /* lua */ = {
-			isa = PBXGroup;
-			children = (
-				74474AE719A5ED760040961A /* lapi.c */,
-				74474AE819A5ED760040961A /* lapi.h */,
-				74474AE919A5ED760040961A /* lauxlib.c */,
-				74474AEA19A5ED760040961A /* lauxlib.h */,
-				74474AEB19A5ED760040961A /* lbaselib.c */,
-				74474AEC19A5ED760040961A /* lcode.c */,
-				74474AED19A5ED760040961A /* lcode.h */,
-				74474AEE19A5ED760040961A /* ldblib.c */,
-				74474AEF19A5ED760040961A /* ldebug.c */,
-				74474AF019A5ED760040961A /* ldebug.h */,
-				74474AF119A5ED760040961A /* ldo.c */,
-				74474AF219A5ED760040961A /* ldo.h */,
-				74474AF319A5ED760040961A /* ldump.c */,
-				74474AF419A5ED760040961A /* lfunc.c */,
-				74474AF519A5ED760040961A /* lfunc.h */,
-				74474AF619A5ED760040961A /* lgc.c */,
-				74474AF719A5ED760040961A /* lgc.h */,
-				74474AF819A5ED760040961A /* linit.c */,
-				74474AF919A5ED760040961A /* liolib.c */,
-				74474AFA19A5ED760040961A /* llex.c */,
-				74474AFB19A5ED760040961A /* llex.h */,
-				74474AFC19A5ED760040961A /* llimits.h */,
-				74474AFD19A5ED760040961A /* lmathlib.c */,
-				74474AFE19A5ED760040961A /* lmem.c */,
-				74474AFF19A5ED760040961A /* lmem.h */,
-				74474B0019A5ED760040961A /* loadlib.c */,
-				74474B0119A5ED760040961A /* lobject.c */,
-				74474B0219A5ED760040961A /* lobject.h */,
-				74474B0319A5ED760040961A /* lopcodes.c */,
-				74474B0419A5ED760040961A /* lopcodes.h */,
-				74474B0519A5ED760040961A /* loslib.c */,
-				74474B0619A5ED760040961A /* lparser.c */,
-				74474B0719A5ED760040961A /* lparser.h */,
-				74474B0819A5ED760040961A /* lstate.c */,
-				74474B0919A5ED760040961A /* lstate.h */,
-				74474B0A19A5ED760040961A /* lstring.c */,
-				74474B0B19A5ED760040961A /* lstring.h */,
-				74474B0C19A5ED760040961A /* lstrlib.c */,
-				74474B0D19A5ED760040961A /* ltable.c */,
-				74474B0E19A5ED760040961A /* ltable.h */,
-				74474B0F19A5ED760040961A /* ltablib.c */,
-				74474B1019A5ED760040961A /* ltm.c */,
-				74474B1119A5ED760040961A /* ltm.h */,
-				74474B1219A5ED760040961A /* lua.h */,
-				74474B1319A5ED760040961A /* luaconf.h */,
-				74474B1419A5ED760040961A /* lualib.h */,
-				74474B1519A5ED760040961A /* lundump.c */,
-				74474B1619A5ED760040961A /* lundump.h */,
-				74474B1719A5ED760040961A /* lvm.c */,
-				74474B1819A5ED760040961A /* lvm.h */,
-				74474B1919A5ED760040961A /* lzio.c */,
-				74474B1A19A5ED760040961A /* lzio.h */,
-				74474B1B19A5ED760040961A /* print.c */,
-			);
-			path = lua;
 			sourceTree = "<group>";
 		};
 		FDEA8A4615CD1EBC0030B539 = {
@@ -630,11 +287,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74474B3019A5ED760040961A /* Rakefile in Resources */,
 				7445F47F19A1D9CE0022808A /* Images.xcassets in Resources */,
 				7445F47E19A1D9CE0022808A /* InfoPlist.strings in Resources */,
 				74BDBC82199DAB5A00529846 /* Podfile in Resources */,
-				74474B3919A5ED760040961A /* yajl-1.0.9.tar.gz in Resources */,
 				74A8F3CD199DA23200315362 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -679,65 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74474B5C19A5ED760040961A /* wax_instance.m in Sources */,
-				74474B5419A5ED760040961A /* lundump.c in Sources */,
-				74474B4119A5ED760040961A /* ldump.c in Sources */,
 				74474A1419A5CA440040961A /* UIImage+SWImage.m in Sources */,
-				74474B3719A5ED760040961A /* yajl_lex.c in Sources */,
-				74474B5D19A5ED760040961A /* wax_server.m in Sources */,
-				74474B5319A5ED760040961A /* ltm.c in Sources */,
-				74474B4219A5ED760040961A /* lfunc.c in Sources */,
-				74474B2C19A5ED760040961A /* wax_CGContext.m in Sources */,
-				74474B5919A5ED760040961A /* wax_class.m in Sources */,
-				74474B2F19A5ED760040961A /* wax_http_connection.m in Sources */,
 				7445F47C19A1D9CE0022808A /* AppDelegate.m in Sources */,
-				74474B4E19A5ED760040961A /* lstate.c in Sources */,
-				74474B2D19A5ED760040961A /* wax_filesystem.m in Sources */,
-				74474B5E19A5ED760040961A /* wax_struct.m in Sources */,
-				74474B5219A5ED760040961A /* ltablib.c in Sources */,
-				74474B3C19A5ED760040961A /* lbaselib.c in Sources */,
-				74474B5719A5ED760040961A /* print.c in Sources */,
-				74474B3A19A5ED760040961A /* lapi.c in Sources */,
-				74474B5619A5ED760040961A /* lzio.c in Sources */,
 				7445F4B419A1D9CE0022808A /* main.m in Sources */,
-				74474B5B19A5ED760040961A /* wax_helpers.m in Sources */,
 				74474A0E19A5C9F50040961A /* NSString+SWHex.m in Sources */,
-				74474B4C19A5ED760040961A /* loslib.c in Sources */,
-				74474B4B19A5ED760040961A /* lopcodes.c in Sources */,
-				74474B4319A5ED760040961A /* lgc.c in Sources */,
-				74474B3219A5ED760040961A /* yajl.c in Sources */,
-				74474B3619A5ED760040961A /* yajl_gen.c in Sources */,
-				74474B3B19A5ED760040961A /* lauxlib.c in Sources */,
 				74474A0D19A5C9F50040961A /* NSNumber+SWHex.m in Sources */,
-				74474B3419A5ED760040961A /* yajl_buf.c in Sources */,
-				74474B4419A5ED760040961A /* linit.c in Sources */,
-				74474B5019A5ED760040961A /* lstrlib.c in Sources */,
-				74474B5119A5ED760040961A /* ltable.c in Sources */,
-				74474B5A19A5ED760040961A /* wax_gc.m in Sources */,
-				74474B5519A5ED760040961A /* lvm.c in Sources */,
-				74474B3D19A5ED760040961A /* lcode.c in Sources */,
-				74474B4719A5ED760040961A /* lmathlib.c in Sources */,
-				74474B4619A5ED760040961A /* llex.c in Sources */,
-				74474B5819A5ED760040961A /* wax.m in Sources */,
-				74474B4F19A5ED760040961A /* lstring.c in Sources */,
-				74474B3119A5ED760040961A /* wax_json.c in Sources */,
 				74474A1719A5CAB70040961A /* NSDate+Helper.m in Sources */,
-				74474B4519A5ED760040961A /* liolib.c in Sources */,
-				74474B4919A5ED760040961A /* loadlib.c in Sources */,
-				74474B4819A5ED760040961A /* lmem.c in Sources */,
-				74474B3E19A5ED760040961A /* ldblib.c in Sources */,
-				74474B4A19A5ED760040961A /* lobject.c in Sources */,
 				74474A0C19A5C9F50040961A /* NSData+SWHex.m in Sources */,
 				7445F4B619A1D9CE0022808A /* Constant.m in Sources */,
 				7445F4B519A1D9CE0022808A /* MainViewController.m in Sources */,
-				74474B3319A5ED760040961A /* yajl_alloc.c in Sources */,
-				74474B3819A5ED760040961A /* yajl_parser.c in Sources */,
-				74474B3F19A5ED760040961A /* ldebug.c in Sources */,
-				74474B4D19A5ED760040961A /* lparser.c in Sources */,
-				74474B2B19A5ED760040961A /* wax_CGTransform.m in Sources */,
-				74474B3519A5ED760040961A /* yajl_encode.c in Sources */,
-				74474B4019A5ED760040961A /* ldo.c in Sources */,
-				74474B2E19A5ED760040961A /* wax_http.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
