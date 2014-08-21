@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA94A6A3-74DF-401E-8604-EB785212FE76</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SWWorkspace</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>31B3DC86-0740-4086-AC62-6AED3BFDFA43</key>
+		<string>https://github.com/conanwsz/SWWorkspace.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SWWorkspace.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>31B3DC86-0740-4086-AC62-6AED3BFDFA43</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/conanwsz/SWWorkspace.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>31B3DC86-0740-4086-AC62-6AED3BFDFA43</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>31B3DC86-0740-4086-AC62-6AED3BFDFA43</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SWWorkspace</string>
+		</dict>
+	</array>
+</dict>
+</plist>
