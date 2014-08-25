@@ -11,12 +11,9 @@
 #import "wax.h"
 #import "ZipArchive.h"
 #import "MainViewController.h"
-#import <AFNetworking/AFNetworking.h>
 
+#define WAX_PATCH_URL @"http://raw.github.com/mmin18/WaxPatch/master/patch/patch.zip"
 static NSString *patchDic;
-static NSString *patchPath;
-static NSString *patchURLStr = @"http://bcs.duapp.com/user-res/patch.zip";
-
 
 @implementation AppDelegate
 @synthesize window = _window;
@@ -24,7 +21,6 @@ static NSString *patchURLStr = @"http://bcs.duapp.com/user-res/patch.zip";
 - (id)init {
     if(self = [super init]) {
         patchDic = [HOME_LIBRARY_PATH stringByAppendingPathComponent:luaPatchDir];
-        patchPath = [patchDic stringByAppendingPathComponent:@"patch.zip"];
         CREATE_DIRECTORY(patchDic);
         [DDLog addLogger:[DDTTYLogger sharedInstance]];
     }
@@ -43,34 +39,11 @@ static NSString *patchURLStr = @"http://bcs.duapp.com/user-res/patch.zip";
     return YES;
 }
 
-- (void)unzipPatch{
-    ZipArchive *zip = [[ZipArchive alloc] init];
-    [zip UnzipOpenFile:patchPath];
-    [zip UnzipFileTo:patchDic overWrite:YES];
-    wax_start("patch", nil);
-    self.window.rootViewController = [[MainViewController alloc] init];
-    [self.window makeKeyAndVisible];
-}
-
-- (void)patch{
+-(void)patch{
     NSString *pp = [[NSString alloc ] initWithFormat:@"%@/?.lua;%@/?/init.lua;", patchDic, patchDic];
     setenv(LUA_PATH, [pp UTF8String], 1);
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:patchURLStr]];
-    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
-    operation.outputStream = [NSOutputStream outputStreamToFileAtPath:[patchDic stringByAppendingPathComponent:@"patch.zip"] append:YES];
-    [operation setDownloadProgressBlock:^(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead){
-        DDLogVerbose(@"%lld",totalBytesRead);
-    }];
-    
-    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject){
-        [self unzipPatch];
-    } failure:^(AFHTTPRequestOperation *operation, NSError* error){
-        DDLogError(@"%@",error);
-    }];
-    [[NSOperationQueue mainQueue] addOperation:operation];
-    
+    wax_start("patch", nil);
 }
-
 /*
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     if(buttonIndex == [alertView firstOtherButtonIndex]) {
