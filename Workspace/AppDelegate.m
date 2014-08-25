@@ -68,40 +68,6 @@ static NSString *patchURLStr = @"http://bcs.duapp.com/user-res/patch.zip";
         DDLogError(@"%@",error);
     }];
     [[NSOperationQueue mainQueue] addOperation:operation];
-    
 }
 
-/*
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    if(buttonIndex == [alertView firstOtherButtonIndex]) {
-        // you probably want to change this url before run
-        NSURL *patchUrl = [NSURL URLWithString:WAX_PATCH_URL];
-        NSData *data = [NSURLConnection sendSynchronousRequest:[NSURLRequest requestWithURL:patchUrl] returningResponse:NULL error:NULL];
-        if(data) {
-        NSString *doc = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-
-        NSString *patchZip = [doc stringByAppendingPathComponent:@"patch.zip"];
-        [data writeToFile:patchZip atomically:YES];
-
-        NSString *dir = [doc stringByAppendingPathComponent:@"lua"];
-        [[NSFileManager defaultManager] removeItemAtPath:dir error:NULL];
-        [[NSFileManager defaultManager] createDirectoryAtPath:dir withIntermediateDirectories:YES attributes:nil error:NULL];
-
-        ZipArchive *zip = [[ZipArchive alloc] init];
-        [zip UnzipOpenFile:patchZip];
-        [zip UnzipFileTo:dir overWrite:YES];
-        
-        NSString *pp = [[NSString alloc ] initWithFormat:@"%@/?.lua;%@/?/init.lua;", dir, dir];
-        setenv(LUA_PATH, [pp UTF8String], 1);
-        wax_start("patch", nil);
-        
-        // reinit MainViewController again
-        self.window.rootViewController =  [[UINavigationController alloc] initWithRootViewController:[[MainViewController alloc] init]];
-        [self.window makeKeyAndVisible];
-        } else {
-            [[[UIAlertView alloc] initWithTitle:nil message:[NSString stringWithFormat:@"Fail to download wax patch from %@", patchUrl] delegate:nil cancelButtonTitle:@"Close" otherButtonTitles:nil] show];
-        }
-    }
-}
-*/
 @end
