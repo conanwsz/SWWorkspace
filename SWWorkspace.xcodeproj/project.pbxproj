@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74268E2419AACDE500C58F12 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74268E2319AACDE500C58F12 /* Default-568h@2x.png */; };
+		74268E2619AACDEB00C58F12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74268E2519AACDEB00C58F12 /* Images.xcassets */; };
 		7445F1F919A1A8E60022808A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7445F1F819A1A8E60022808A /* libPods.a */; };
 		7445F47C19A1D9CE0022808A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7445F3F519A1D9CE0022808A /* AppDelegate.m */; };
 		7445F47E19A1D9CE0022808A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7445F3FB19A1D9CE0022808A /* InfoPlist.strings */; };
-		7445F47F19A1D9CE0022808A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7445F3FD19A1D9CE0022808A /* Images.xcassets */; };
 		7445F4B419A1D9CE0022808A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7445F47319A1D9CE0022808A /* main.m */; };
 		7445F4B519A1D9CE0022808A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7445F47519A1D9CE0022808A /* MainViewController.m */; };
 		7445F4B619A1D9CE0022808A /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 7445F47819A1D9CE0022808A /* Constant.m */; };
@@ -71,7 +72,6 @@
 		74474C0019A5F0E80040961A /* wax_instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474BC919A5F0E80040961A /* wax_instance.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		74474C0119A5F0E80040961A /* wax_server.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474BCB19A5F0E80040961A /* wax_server.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		74474C0219A5F0E80040961A /* wax_struct.m in Sources */ = {isa = PBXBuildFile; fileRef = 74474BCE19A5F0E80040961A /* wax_struct.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		74A8F3CD199DA23200315362 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74A8F3CC199DA23200315362 /* Default-568h@2x.png */; };
 		74BDBC82199DAB5A00529846 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 74BDBC81199DAB5A00529846 /* Podfile */; };
 		FDEA8A5615CD1EBD0030B539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEA8A5515CD1EBD0030B539 /* UIKit.framework */; };
 		FDEA8A5815CD1EBD0030B539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEA8A5715CD1EBD0030B539 /* Foundation.framework */; };
@@ -82,13 +82,14 @@
 
 /* Begin PBXFileReference section */
 		3F03EE479A794EEB96D693FF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		74268E2319AACDE500C58F12 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		74268E2519AACDEB00C58F12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Workspace/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		7445F1F819A1A8E60022808A /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		7445F3F419A1D9CE0022808A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7445F3F519A1D9CE0022808A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7445F3F919A1D9CE0022808A /* SWWorkspace-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SWWorkspace-Info.plist"; sourceTree = "<group>"; };
 		7445F3FA19A1D9CE0022808A /* SWWorkspace-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SWWorkspace-Prefix.pch"; sourceTree = "<group>"; };
 		7445F3FC19A1D9CE0022808A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7445F3FD19A1D9CE0022808A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		7445F47319A1D9CE0022808A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7445F47419A1D9CE0022808A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		7445F47519A1D9CE0022808A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -208,7 +209,6 @@
 		74474BCC19A5F0E80040961A /* wax_stdlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_stdlib.h; sourceTree = "<group>"; };
 		74474BCD19A5F0E80040961A /* wax_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_struct.h; sourceTree = "<group>"; };
 		74474BCE19A5F0E80040961A /* wax_struct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_struct.m; sourceTree = "<group>"; };
-		74A8F3CC199DA23200315362 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
 		74BDBC81199DAB5A00529846 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FDEA8A5115CD1EBD0030B539 /* SWWorkspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWWorkspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEA8A5515CD1EBD0030B539 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -324,8 +324,8 @@
 		7445F47B19A1D9CE0022808A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				74A8F3CC199DA23200315362 /* Default-568h@2x.png */,
-				7445F3FD19A1D9CE0022808A /* Images.xcassets */,
+				74268E2519AACDEB00C58F12 /* Images.xcassets */,
+				74268E2319AACDE500C58F12 /* Default-568h@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -631,11 +631,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				74474BD419A5F0E80040961A /* Rakefile in Resources */,
-				7445F47F19A1D9CE0022808A /* Images.xcassets in Resources */,
 				7445F47E19A1D9CE0022808A /* InfoPlist.strings in Resources */,
 				74BDBC82199DAB5A00529846 /* Podfile in Resources */,
+				74268E2619AACDEB00C58F12 /* Images.xcassets in Resources */,
+				74268E2419AACDE500C58F12 /* Default-568h@2x.png in Resources */,
 				74474BDD19A5F0E80040961A /* yajl-1.0.9.tar.gz in Resources */,
-				74A8F3CD199DA23200315362 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
